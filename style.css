@@ -2,6 +2,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 h1 {
     font-size: 50px;
 }
@@ -12,11 +16,17 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
+}
+
+.header {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .half_width {
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
 }
 
 .half_width img {
@@ -35,4 +45,18 @@ section {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.dream_big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.dream_width {
+    margin-left: -5%;
+}
+
+.dream_title {
+    font-size: 43px;
 }
