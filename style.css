@@ -10,11 +10,23 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    color: #696969;
+}
+
 .name {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 150px;
 }
@@ -59,4 +71,43 @@ section {
 
 .dream_title {
     font-size: 43px;
+}
+
+.experience {
+    margin-bottom: 100px;
+}
+
+.experience_area {
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+.experience_card {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 30px 40px;
+    box-shadow: 5px 7px 40px gray;
+}
+
+#tomato {
+    border-left: 8px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#blue {
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+footer p {
+    text-align: center;
 }
